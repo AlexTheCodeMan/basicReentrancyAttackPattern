@@ -28,7 +28,7 @@ contract HackingRichToken{
         RichTokenInterface(richToken).contribute.value(msg.value)();
     }
 
-    function HackRick() public {
+    function HackRich() public {
         RichTokenInterface(richToken).withdrawAll();
     }
 
