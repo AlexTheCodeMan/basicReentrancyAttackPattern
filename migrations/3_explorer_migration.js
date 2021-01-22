@@ -1,7 +1,7 @@
 const axios = require('axios')
 const fs = require('fs');
 
-const Contract1 = artifacts.require("./richToken.sol");
+const Contract1 = artifacts.require("./RichToken.sol");
 const Contract2 = artifacts.require("./HackingRichToken.sol");
 
 

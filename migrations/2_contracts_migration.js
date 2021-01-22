@@ -1,4 +1,4 @@
-const RichToken = artifacts.require("./richToken.sol");
+const RichToken = artifacts.require("./RichToken.sol");
 const HackingRichToken = artifacts.require("./HackingRichToken.sol");
 
 module.exports = function(deployer) {
